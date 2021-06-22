@@ -4,6 +4,7 @@ body {
     padding: 4pt;
     background: url(images/arsenal1.jpg) no-repeat left;
     background-size: cover;
+    font-size: 16pt;
 }
 * {box-sizing: border-box;}
 .container {
