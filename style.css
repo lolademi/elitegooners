@@ -4,7 +4,7 @@ body {
     padding: 4pt;
     background: url(images/arsenal1.jpg) no-repeat left;
     background-size: cover;
-    font-size: 16pt;
+    font-size: 16px;
 }
 * {box-sizing: border-box;}
 .container {
@@ -55,7 +55,7 @@ h3 {
 /*DESIGNING TABLE*/
 table {
     margin: auto;
-    width: 80%;
+    width: 100%;
     margin: auto;
     font-family: comic-bold;
 }
