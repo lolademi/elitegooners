@@ -1,0 +1,109 @@
+
+body {
+    display: flex;
+    padding: 4pt;
+    background: url(images/arsenal1.jpg) no-repeat left;
+    background-size: cover;
+}
+* {box-sizing: border-box;}
+.container {
+    width: 100%;
+    margin: auto;
+}
+@font-face {
+    font-family: comic-bold;
+    src: url(fonts/ComicNeue-Bold.ttf);
+}
+@font-face {
+    font-family: Dumb3;
+    src: url(fonts/3Dumb.ttf);
+}
+@font-face {
+    font-family: chunkfive;
+    src: url(fonts/Chunkfive.otf)
+} 
+header {
+    color:;
+    background: cadetblue;
+    margin: auto;
+    padding: 2pt;
+    border: 4px solid rgb(114, 11, 11);
+    border-radius: 40pc;
+    text-align: center;
+    font-family: Dumb3, chunkfive, comic-bold, Arial, Helvetica, sans-serif;
+}
+footer {
+    color: rgb(9, 9, 65);
+    background-color: cadetblue;
+    margin: auto;
+    padding: 2pt;
+    border: 4px solid rgb(114, 11, 11);
+    border-radius: 40pc;
+    text-align: center;
+    font-family: Dumb, chunkfive, comic-bold, Arial, Helvetica, sans-serif;
+}
+h1 {
+    margin: 7pt;
+    font-size: ;
+    text-shadow: 1px 1px rgb(182, 157, 157);
+}
+h3 {
+    text-shadow: 1px 1px seashell;
+}
+
+/*DESIGNING TABLE*/
+table {
+    margin: auto;
+    width: 80%;
+    margin: auto;
+    font-family: comic-bold;
+}
+caption, th, tfoot td {
+    border: 2px solid rgb(77, 25, 25);
+    font-size: larger;
+    background-color: darkcyan;
+    border-collapse: ;
+}
+th {
+    font-size: larger;
+    background-color: darkcyan;
+}
+tr {
+    padding: 4pt;
+    background-color: cadetblue;
+    animation-duration: 4s;
+}
+tr:hover {
+    background-color: royalblue;
+}
+td {
+    padding: 4pt;
+    border: 2px solid rgb(77, 25, 25);
+}
+td:nth-child(2) {
+    font-size: larger;
+    color: ;
+    font-weight: ;
+}
+tfoot td {text-align: center;}
+.fas, .far,.fab {
+    margin-right: 3pt;
+    float: right;
+}
+.fa-trophy {float: none;}
+.fa-hammer {
+    float: none;
+    animation: hammer 1s linear 2s infinite alternate-reverse;
+}
+.fa-paint-roller {
+    float: none;
+    animation: roller 1s linear 2s infinite alternate-reverse;
+}
+@keyframes hammer {
+    from {transform: rotate(0);}
+    to {transform: rotate(50deg);}
+}
+@keyframes roller {
+    from {transform: translateY(0);}
+    to {transform: translateY(10px);}
+}
