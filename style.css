@@ -4,7 +4,7 @@ body {
     padding: 4pt;
     background: url(images/arsenal1.jpg) no-repeat left;
     background-size: cover;
-    font-size: 16px;
+    font-size: 18px;
 }
 * {box-sizing: border-box;}
 .container {
@@ -29,9 +29,9 @@ header {
     margin: auto;
     padding: 2pt;
     border: 4px solid rgb(114, 11, 11);
-    border-radius: 40pc;
+    border-radius: 12pt;
     text-align: center;
-    font-family: Dumb3, chunkfive, comic-bold, Arial, Helvetica, sans-serif;
+    font-family: Dumb3, chunkfive, comic-bold, cursive, Arial, Helvetica, sans-serif;
 }
 footer {
     color: rgb(9, 9, 65);
@@ -39,7 +39,7 @@ footer {
     margin: auto;
     padding: 2pt;
     border: 4px solid rgb(114, 11, 11);
-    border-radius: 40pc;
+    border-radius: 12pt;
     text-align: center;
     font-family: Dumb, chunkfive, comic-bold, Arial, Helvetica, sans-serif;
 }
@@ -54,16 +54,18 @@ h3 {
 
 /*DESIGNING TABLE*/
 table {
+    border-collapse: collapse;
     margin: auto;
-    width: 100%;
+    width: 95%;
     margin: auto;
     font-family: comic-bold;
 }
 caption, th, tfoot td {
     border: 2px solid rgb(77, 25, 25);
-    font-size: larger;
     background-color: darkcyan;
-    border-collapse: ;
+}
+caption {
+    font-size: 24px;
 }
 th {
     font-size: larger;
@@ -76,15 +78,19 @@ tr {
 }
 tr:hover {
     background-color: royalblue;
+    border: 4px inset goldenrod;
 }
 td {
-    padding: 4pt;
+    padding: 10px;
     border: 2px solid rgb(77, 25, 25);
+    text-align: ;
 }
 td:nth-child(2) {
-    font-size: larger;
-    color: ;
-    font-weight: ;
+    font-size: 20px;
+}
+td:nth-child(1), td:nth-child(4){
+    padding-left: ;
+    text-align: center;
 }
 tfoot td {text-align: center;}
 .fas, .far,.fab {
