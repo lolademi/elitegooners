@@ -32,7 +32,7 @@ header {
     border: 4px solid rgb(114, 11, 11);
     border-radius: 12pt;
     text-align: center;
-    font-family: Lobster, Dumb3, chunkfive, comic-bold, cursive, Arial, Helvetica, sans-serif;
+    font-family: Lobster, sans-serif;
 }
 footer {
     color: rgb(9, 9, 65);
@@ -48,6 +48,7 @@ h1 {
     margin: 7pt;
     font-size: ;
     text-shadow: 1px 1px rgb(182, 157, 157);
+    font-family: Dumb3, chunkfive, comic-bold, Arial, Helvetica, sans-serif;
 }
 h3 {
     text-shadow: 1px 1px seashell;
