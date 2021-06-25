@@ -5,7 +5,8 @@ body {
     background: url(images/arsenal1.jpg) no-repeat left;
     background-size: cover;
     font-size: 18px;
-    font-family: cursive;
+    font-family: tillana-bold, cursive, Arial, Helvetica, sans-serif;;
+    color: rgb(10, 4, 49);
 }
 * {box-sizing: border-box;}
 .container {
@@ -24,8 +25,10 @@ body {
     font-family: chunkfive;
     src: url(fonts/Chunkfive.otf)
 }
+@media 
 header {
-    background: cadetblue;
+    background: rgba(95, 158, 160, 0.8);
+    background-color: linear(5px red, 20px white);
     margin: auto;
     padding: 2pt;
     border: 4px solid rgb(114, 11, 11);
@@ -34,22 +37,21 @@ header {
 }
 footer {
     color: rgb(9, 9, 65);
-    background-color: cadetblue;
+    background-color: rgba(95, 158, 160);
     margin: auto;
     padding: 2pt;
     border: 4px solid rgb(114, 11, 11);
     border-radius: 12pt;
     text-align: center;
-    font-family: tillana-bold, comic-bold, Arial, Helvetica, sans-serif;
 }
 header h1 {
     color: rgb(9, 9, 65);
     margin: 7pt;
     font-size: ;
     text-shadow: 1px 1px seashell;
-    font-family: tillana-bold, Arial, Helvetica, sans-serif;
 }
-footer h3 {
+footer h4 {
+    margin: 2px;
     text-shadow: 1px 1px seashell;
     font-family: tillana-bold;
 }
@@ -59,15 +61,14 @@ table {
     border-collapse: collapse;
     margin: auto;
     width: 96%;
-    font-family: tillana-bold, comic-bold, cursive;
 }
 caption, th, tfoot td {
     padding: 5px;
     border: 2px solid rgb(77, 25, 25);
-    background-color: darkcyan;
+    background-color: rgba(0, 139, 139, 0.8);
 }
 caption {
-    font-size: ;
+    font-size: larger;
 }
 th {
     font-size: larger;
@@ -75,7 +76,7 @@ th {
 }
 tr {
     padding: 4pt;
-    background-color: cadetblue;
+    background-color: rgba(95, 158, 160, 0.8);
     animation-duration: 4s;
 }
 tr:hover {
