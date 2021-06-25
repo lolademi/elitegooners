@@ -61,6 +61,7 @@ table {
     font-family: tillana-bold, comic-bold, cursive;
 }
 caption, th, tfoot td {
+    padding: 5px;
     border: 2px solid rgb(77, 25, 25);
     background-color: darkcyan;
 }
