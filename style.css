@@ -87,7 +87,7 @@ td {
     border: 2px solid rgb(77, 25, 25);
     text-align: ;
 }
-td:nth-child(2) {
+#table1 td:nth-child(2) {
     font-size: 20px;
 }
 td:nth-child(1), td:nth-child(4){
@@ -99,6 +99,16 @@ tfoot td {text-align: center;}
     margin-right: 5pt;
     margin-top: 5pt;
     float: right;
+}
+/*TABLE 2*/
+#table2 tr {
+    background-color: transparent;
+}
+#table2 td {
+    background-color: rgb(4, 136, 136);
+    border: 4px solid rgba(139, 22, 22, 0.8);
+    margin:; 
+    padding: 5px;
 }
 
 /*ICONS*/
@@ -119,3 +129,13 @@ tfoot td {text-align: center;}
     from {transform: translateY(0);}
     to {transform: translateY(10px);}
 }
+.iconsRole {font-size: small;}
+.iconsRole .fas {
+    float: left;
+    margin-left: 5px;
+}
+.iconsRole span {
+    float: right;
+    margin-right: 5px;
+}
+
