@@ -79,12 +79,12 @@ tr {
 }
 .tRow:hover {
     background-color: royalblue;
-    border: 4px inset goldenrod;
+    border-bottom: 4px inset goldenrod;
+    box-shadow: 4px 4px 4px goldenrod, -4px -4px 4px goldenrod;
 }
 td {
     padding: 10px;
     border: 2px solid rgb(77, 25, 25);
-    text-align: ;
 }
 #table1 td:nth-child(2) {
     font-size: 20px;
@@ -97,7 +97,7 @@ tfoot td {text-align: center;}
 .fas, .far,.fab {
     margin-right: 5pt;
     margin-top: 5pt;
-    float: right;
+    float: righ;
 }
 /*TABLE 2*/
 #table2 tr {
@@ -131,11 +131,11 @@ tfoot td {text-align: center;}
 }
 .iconsRole {font-size: small;}
 .iconsRole .fas {
-    float: left;
+    float: le;
     margin-left: 5px;
 }
 .iconsRole span {
-    float: right;
+    float: ri;
     margin-right: 5px;
 }
 
@@ -194,14 +194,37 @@ tfoot td {text-align: center;}
 }
 .w3-card-4 {
     border: 4px groove tomato;
-    background-color: rgb(114, 11, 11);
-    border-radius: 15%;
+    background-color: rgba(114, 7, 7, 0.644);
+    border-radius: ;
     color: whitesmoke;
 }
 .w3-card-4 span {
-    color: rgb(219, 192, 141);
-    text-align: left;
+    color: rgb(238, 223, 195);
+    text-align: ;
 }
 .w3-card-4 .detail {
     text-align: right;
 }
+
+
+.myClass {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+
+
+
+
+
+
+  ul {
+    counter-reset: section;
+    list-style-type: georgian;
+  }
+  
+  p::before {
+    counter-increment: section;
+    content: counter(section) " ";
+  }
