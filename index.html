@@ -1,448 +1,63 @@
 
 <!DOCTYPE HTML> 
-<html lang="en"> 
+<html> 
     <head> 
         <meta charset="utf‑8"> 
         <!‑‑ Responsive ‑‑> 
         <meta name="viewport" content="width=device‑width, initial‑scale=1"> 
         <!‑‑ CSS ‑‑> 
         <!‑‑W3 CSS‑‑> 
-            <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-            <!--Local Address--> 
-            <link rel="stylesheet" href="css/w3.css">
-        <!‑‑Font Awesome‑‑> 
-            <!‑‑Online Address‑‑> 
-            <script src="https://kit.fontawesome.com/5468eb592b.js" crossorigin="anonymous"></script> 
-            <!‑‑Local Address‑‑> 
-            <link href="fontawesome/css/all.css" rel="stylesheet"/> 
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> 
+        <!‑‑Bootstrap CSS‑-> 
+        <!‑‑Online Address‑‑> 
+          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> 
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script> 
+          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> 
+        <!‑‑Local Address‑‑> 
+          <link rel="stylesheet" a href="css/bootstrap.css"/> 
+          <script src="js/bootstrap.min.js"></script> <script src="js/bootstrap.esm.min.js"></script> 
+          <script src="js/bootstrap.bundle.min.js"></script> 
+          <script src="js/bootstrap.esm.js"></script> 
+        <!--Tailwind CSS Local-->
+          <link id="theme" rel="stylesheet" type="text/css" media="screen" href="css/tailwind.min.css" /> 
+        <!--Tailwind CSS-->
+        <!--React Script Local-->
+          <script src="react/react.production.min.js"></script>
+          <script src="react/react-dom.production.min.js"></script>
+          <script src="react//babel.min.js"></script>
+        <!--React Script-->
+            <script src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
+            <script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+            <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+
+          <!‑‑Font Awesome‑‑> 
+          <!‑‑Online Address‑‑> 
+        <script src="https://kit.fontawesome.com/5468eb592b.js" crossorigin="anonymous"></script> 
+          <!‑‑Local Address‑‑> <link href="fontawesome/css/all.css" rel="stylesheet"/> 
         <!‑‑Google Font‑‑>
-            <!‑‑Online Address‑‑> 
-            <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster"> 
+        <!‑‑Online Address‑‑> 
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster"> 
         <!‑‑Custom CSS‑‑> 
-        <link id="" rel="stylesheet" type="text/css" media="screen" href="style.css" /> 
+        <link id="theme" rel="stylesheet" type="text/css" media="screen" href="css/style.css" /> 
         <style> </style> 
-        <title>Elite Gooners</title> 
+        <title>My Title</title> 
     </head> 
     <body> 
         
         <!‑‑ Content ‑‑> 
-  
-        <header class="w3-container">
-            <h1 class="w3-jumbo">
-                <i class="fas fa-trophy"></i>
-                ELITE GOONERS
-                <i class="fas fa-trophy"></i>
-            </h1>
-        </header>
 
-        <!--MEMBERS LIST-->
-        <section class="Members">
-            <table id="table1" class="">
-                <caption>Elite Members</caption>
-                <tr>
-                    <th>S/N</th>
-                    <th>
-                        Names
-                        <i class="fab far fa-user"></i>
-                    </th>
-                    <th>
-                        Post
-                        <i class="far fas fa-award"
-                    </th>
-                    <th>
-                        Country
-                        <i class="far fa-flag"
-                    </th>
-                </tr>
-                <tr  class="tRow" onclick="showModal()">
-                    <td>1.</td>
-                    <td id="m">Name</td>
-                    <td id="m-post">Post</td>
-                    <td id="m-ctry">Country</td>
-                </tr>
-                
-                <!-- The Modal -->
-                <div id="myModal" class="modal">
-                    <!-- Modal content -->
-                    <div class="modal-content w3-card-4">
-                        <span class="close">&times;</span>
-                        <div class="modalImg w3-card">
-                            <i class="fas fa-user-astronaut profileImg"></i>
-                        </div>
-                        <div>                        
-                            <p>
-                            <span class="">Name: </span> 
-                            <i class="detail">Lola</i>  
-                            </p>
-                        <p>
-                            <span class="">Country: </span> 
-                            Nigeria  
-                        </p>
-                        <p>
-                            <span class="">Post: </span> 
-                            Creator/Owner  
-                        </p>
-                        <p>
-                          <span class="">Favourite player: </span>
-                            Granit Xhaka
-                        </p>
-                        <p>
-                            <span class="">Fun Fact: </span>
-                            Some text in the Modal..this is a paragraph
-                        </p>
-                        </div>
-
-                    </div>
-                </div>
-
-                <tr class="tRow">
-                    <td>2.</td>
-                    <td id="m2">Name</td>
-                    <td id="m2-pos">Post</td> 
-                    <td id="m2-cty">Country</td>
-                </tr>
-                <tr class="tRow">
-                    <td>3.</td>
-                    <td id="m3">Name</td>
-                    <td id="m3-pos">Post</td> 
-                    <td id="m3-ctr">Country</td>
-                </tr>
-                <tr>
-                    <td>4.</td>
-                    <td>Samuel Ologun</td>
-                    <td>Admin 
-                        <i class="fas fa-crown"></i></td>
-                    <td>Nigeria</td>
-                </tr>
-                <tr>
-                    <td>5.</td>
-                    <td>Zamani</td>
-                    <td>Member 
-                        <i class="fas fa-medal"></i>
-                    </td>
-                    <td>Nigeria</td>
-                </tr>  
-                <tr>
-                    <td>6.</td>
-                    <td>Mastersharo</td>
-                    <td>Member
-                        <i class="fas fa-medal"></i>
-                    </td>
-                    <td>Tanzania</td>
-                </tr>              
-                <tr>
-                    <td>7.</td>
-                    <td>MR REX</td>
-                    <td>Member
-                        <i class="fas fa-medal"></i>
-                    </td>
-                    <td>Nigeria</td>
-                </tr>  
-
-                <tfoot>
-                    <tr>
-                        <td colspan="4">
-                            <i class="fas fa-hammer"></i>
-                            Underconstruction 
-                            <i class="fas fa-paint-roller"></i> 
-                            <i class="fas fa-cog fa-spin"></i>
-                        </td>
-                    </tr>
-                </tfoot>
-            </table>
-            <table id="table2">
-                            <!--ICONS DESCRIPTION-->              
-                <tr>
-                    <td class="iconsRole">
-                        <i class="fas fa-user-check"></i>
-                            <span>- Owner/Creator</span>
-                    </td>
-                    <td class="iconsRole">
-                        <i class="fas fa-crown"></i>
-                            <span>- Admin/Founding Member</span>                        
-                    </td>
-                </tr>
-                <tr>
-                    <td class="iconsRole">
-                        <i class="fas fa-medal"></i>
-                            <span>- Founding Member</span>
-                    </td>
-                    <!--<td class="iconsRole" colspan="2">
-                        <i class="fas fa-user-check"></i>
-                            <span>- Owner/Creator</span>  
-                    </td>-->
-                </tr>
-            </table>
-        
-        </section>
-
-        <ul class="w3-ul w3-card-4">
-
-            <!--Member 0-->
-            <li class="w3-bar w3-border-red w3-blue-grey w3-btn">
-                <h5 class="w3-badge w3-green w3-left">0</h5>
-                <div class="myClass">   
-                <span class="w3-bar-item w3-circle" style="width:85px">
-                    <i class="fas fas fa-user-tie w3-xxlarge"></i>
-                </span>
-                <div class="w3-bar-item">
-                    <span id="M0-NAME" class="w3-xlarge w3-margin-top">Name</span>
-                </div>
-                <div class="w3-bar-item">
-                    <span class="fas fa-flag-usa"></span><br/>
-                    <span id="M0-CTRY">Country</span>
-                </div>
-                <div class="w3-bar-item w3-hide-small">
-                    <span class="fas fa-medal"></span><br/>
-                    <span id="M0-POST">Post</span>      
-                </div>
-                <span id="M0-ICONS" class="w3-bar-item">Medals</span>
-            </div>
-            </li>
-
-            <!--Member 1-->
-            <li class="w3-bar w3-border-red w3-hover-border-yellow w3-hover-black w3-btn">
-                <p class="w3-badge w3-green w3-left"></p>
-                <div class="myClass">
-                    <span class="w3-bar-item w3-circle" style="width:85px">
-                        
-                        <img src='images/lolade.JPG' class="w3-card-2 w3-round-xlarge" width="100%" height="50%"/>
-                    </span>
-                    <div class="w3-bar-item">
-                        <span id="M1-NAME" class="w3-xlarge w3-margin-top">Name</span>
-                    </div>
-                    <div class="w3-bar-item">
-                        <span class="fas fa-flag-usa"></span><br/>
-                        <span id="M1-CTRY">Country</span>
-                    </div>
-                    <div class="w3-bar-item w3-hide-small">
-                        <span class="fas fa-medal"></span><br/>
-                        <span id="M1-POST">Post</span>      
-                    </div>
-                    <span id="M1-ICONS" class="w3-bar-item">Icons</span>
-                </div>
-            </li>
-
-            <!--Member 2-->
-            <li class="w3-bar w3-border-red w3-hover-border-yellow w3-hover-black w3-btn">
-                <p class="w3-badge w3-green w3-left"></p>
-                <div class="myClass">
-                    <span class="w3-bar-item w3-circle" style="width:85px">
-                        <i class="fas fa-user-graduate w3-xxlarge"></i>
-                    </span>
-                    <div class="w3-bar-item">
-                        <span id="M2-NAME" class="w3-xlarge w3-margin-top">Name</span>
-                    </div>
-                    <div class="w3-bar-item">
-                        <span class="fas fa-flag-usa"></span><br/>
-                        <span id="M2-CTRY">Country</span>
-                    </div>
-                    <div class="w3-bar-item w3-hide-small">
-                        <span class="fas fa-medal"></span><br/>
-                        <span id="M2-POST">Post</span>      
-                    </div>
-                    <span id="M2-ICONS" class="w3-bar-item">Icons</span>
-                </div>
-            </li>
-
-            <!--Member 3-->
-            <li class="w3-bar w3-border-red w3-hover-border-yellow w3-hover-black w3-btn">
-                <p class="w3-badge w3-green w3-left"></p>
-                <div class="myClass">
-                    <span class="w3-bar-item w3-circle" style="width:85px">
-                        <i class="fas fa-user-graduate w3-xxlarge"></i>
-                    </span>
-                    <div class="w3-bar-item">
-                        <span id="M3-NAME" class="w3-xlarge w3-margin-top">Name</span>
-                    </div>
-                    <div class="w3-bar-item">
-                        <span class="fas fa-flag-usa"></span><br/>
-                        <span id="M3-CTRY">Country</span>
-                    </div>
-                    <div class="w3-bar-item w3-hide-small">
-                        <span class="fas fa-medal"></span><br/>
-                        <span id="M3-POST">Post</span>      
-                    </div>
-                    <span id="M3-ICONS" class="w3-bar-item">Icons</span>
-                </div>
-            </li>
-
-            <!--Member 4-->
-            <li class="w3-bar w3-border-red w3-hover-border-yellow w3-hover-black w3-btn">
-                <p class="w3-badge w3-green w3-left"></p>
-                <div class="myClass">
-                    <span class="w3-bar-item w3-circle" style="width:85px">
-                        <i class="fas fa-user-graduate w3-xxlarge"></i>
-                    </span>
-                    <div class="w3-bar-item">
-                        <span id="M4-NAME" class="w3-xlarge w3-margin-top">Name</span>
-                    </div>
-                    <div class="w3-bar-item">
-                        <span class="fas fa-flag-usa"></span><br/>
-                        <span id="M4-CTRY">Country</span>
-                    </div>
-                    <div class="w3-bar-item w3-hide-small">
-                        <span class="fas fa-medal"></span><br/>
-                        <span id="M4-POST">Post</span>      
-                    </div>
-                    <span id="M4-ICONS" class="w3-bar-item">Icons</span>
-                </div>
-            </li>
-
-           
-            <!--Member 4-->
-            <li class="w3-bar w3-border-red w3-hover-border-yellow w3-hover-black w3-btn">
-                <p class="w3-badge w3-green w3-left"></p>
-                <div class="myClass">
-                    <span class="w3-bar-item w3-circle" style="width:85px">
-                        <i class="fas fa-user-graduate w3-xxlarge"></i>
-                    </span>
-                    <div class="w3-bar-item">
-                        <span id="M5-NAME" class="w3-xlarge w3-margin-top">Name</span>
-                    </div>
-                    <div class="w3-bar-item">
-                        <span class="fas fa-flag-usa"></span><br/>
-                        <span id="M5-CTRY">Country</span>
-                    </div>
-                    <div class="w3-bar-item w3-hide-small">
-                        <span class="fas fa-medal"></span><br/>
-                        <span id="M5-POST">Post</span>      
-                    </div>
-                    <span id="M5-ICONS" class="w3-bar-item">Icons</span>
-                </div>
-            </li>
-
-            <!--Member 5-->
-            <li class="w3-bar w3-border-yellow w3-hover-black w3-btn">
-                <p class="w3-badge w3-green w3-left"></p>
-                <span id="M5-ICONS" class="w3-bar-item w3-right">Icons</span>
-                <span class="w3-bar-item w3-circle" style="width:85px">
-                    <i class="fas fa-user-graduate w3-xxlarge"></i>
-                </span>
-                <div class="w3-bar-item">
-                    <span id="M5-NAME" class="w3-xlarge w3-margin-top">Name</span>
-                </div>
-                <div class="w3-bar-item">
-                    <span class="fas fa-flag-usa"></span><br/>
-                    <span id="M5-CTRY">Country</span>
-                </div>
-                <div class="w3-bar-item w3-hide-small">
-                    <span class="fas fa-medal"></span><br/>
-                    <span id="M5-POST">Post</span>      
-                </div>
-            </li>
-
-            <!--Member 6-->
-            <li class="w3-bar w3-border-yellow w3-hover-black w3-btn">
-                <p class="w3-badge w3-green w3-left"></p>
-                <span id="M6-ICONS" class="w3-bar-item w3-right">Icons</span>
-                <span class="w3-bar-item w3-circle" style="width:85px">
-                    <i class="fas fa-user-graduate w3-xxlarge"></i>
-                </span>
-                <div class="w3-bar-item">
-                    <span id="M6-NAME" class="w3-xlarge w3-margin-top">Name</span>
-                </div>
-                <div class="w3-bar-item">
-                    <span class="fas fa-flag-usa"></span><br/>
-                    <span id="M6-CTRY">Country</span>
-                </div>
-                <div class="w3-bar-item  w3-hide-small">
-                    <span class="fas fa-medal"></span><br/>
-                    <span id="M6-POST">Post</span>      
-                </div>
-            </li>
-
-            <!--Member 7-->
-            <li class="w3-bar w3-border-yellow w3-hover-black w3-btn">
-                <p class="w3-badge w3-green w3-left"></p>
-                <span id="M1-ICONS" class="w3-bar-item w3-right">Icons</span>
-                <span class="w3-bar-item w3-circle" style="width:85px">
-                    <i class="fas fa-user-graduate w3-xxlarge"></i>
-                </span>
-                <div class="w3-bar-item">
-                    <span id="M7-NAME" class="w3-xlarge w3-margin-top">Name</span>
-                </div>
-                <div class="w3-bar-item">
-                    <span class="fas fa-flag-usa"></span><br/>
-                    <span id="M7-CTRY">Country</span>
-                </div>
-                <div class="w3-bar-item w3-hide-small">
-                    <span class="fas fa-medal"></span><br/>
-                    <span id="M7-POST">Post</span>      
-                </div>
-            </li>
-
-            <!--Member 1-->
-            <li class="w3-bar w3-border-yellow w3-hover-black w3-btn">
-                <p class="w3-badge w3-green w3-left"></p>
-                <span id="M1-ICONS" class="w3-bar-item w3-right">Icons</span>
-                <span class="w3-bar-item w3-circle w3-hide-small" style="width:85px">
-                    <i class="fas fa-user-graduate w3-xxlarge"></i>
-                </span>
-                <div class="w3-bar-item">
-                    <span id="M1-NAME" class="w3-xlarge w3-margin-top">Name</span>
-                </div>
-                <div class="w3-bar-item">
-                    <span class="fas fa-flag-usa"></span><br/>
-                    <span id="M1-CTRY">Country</span>
-                </div>
-                <div class="w3-bar-item">
-                    <span class="fas fa-medal"></span><br/>
-                    <span id="M1-POST">Post</span>      
-                </div>
-            </li>
-
-            <!--Member 1-->
-            <li class="w3-bar w3-border-yellow w3-hover-black w3-btn">
-                <p class="w3-badge w3-green w3-left"></p>
-                <span id="M1-ICONS" class="w3-bar-item w3-right">Icons</span>
-                <span class="w3-bar-item w3-circle w3-hide-small" style="width:85px">
-                    <i class="fas fa-user-graduate w3-xxlarge"></i>
-                </span>
-                <div class="w3-bar-item">
-                    <span id="M1-NAME" class="w3-xlarge w3-margin-top">Name</span>
-                </div>
-                <div class="w3-bar-item">
-                    <span class="fas fa-flag-usa"></span><br/>
-                    <span id="M1-CTRY">Country</span>
-                </div>
-                <div class="w3-bar-item">
-                    <span class="fas fa-medal"></span><br/>
-                    <span id="M1-POST">Post</span>      
-                </div>
-            </li>
-
-            <!--Member 1-->
-            <li class="w3-bar w3-border-yellow w3-hover-black w3-btn">
-                <p class="w3-badge w3-green w3-left"></p>
-                <span id="M1-ICONS" class="w3-bar-item w3-right">Icons</span>
-                <span class="w3-bar-item w3-circle w3-hide-small" style="width:85px">
-                    <i class="fas fa-user-graduate w3-xxlarge"></i>
-                </span>
-                <div class="w3-bar-item">
-                    <span id="M1-NAME" class="w3-xlarge w3-margin-top">Name</span>
-                </div>
-                <div class="w3-bar-item">
-                    <span class="fas fa-flag-usa"></span><br/>
-                    <span id="M1-CTRY">Country</span>
-                </div>
-                <div class="w3-bar-item">
-                    <span class="fas fa-medal"></span><br/>
-                    <span id="M1-POST">Post</span>      
-                </div>
-            </li>
-     
-        </ul>
-
-
-        <footer>
-            <h4>Arsenal FC...simply for the Elites.</h4>
-        </footer>
-        
-
-
-        <script src="script.js"></script> 
-
+              <div id="" class="font-mono text-8xl text-pink-900 break-normal place-self-center">Elite Gooners</div>
+              <div id="mydiv" class="mycontainer font-mono">MAIN</div>
+              <menu id="" class="flex font-mono">FOOTER</menu>
+            
+          
+          
+        <!--CUSTOM SCRIPT-->
+        <script src="script.js"></script>
+        <!--REACT SCRIPT-->
+        <script type="text/babel" src="reactJS.jsx">
+         </script>
     </body> 
 </html>
-
+            
