@@ -1,0 +1,85 @@
+.body {
+  background-color: #e3fdee;
+}
+
+* {
+  box-sizing: border-box;
+}
+.mycontainer {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 98%;
+  margin: 10px;
+  padding: 10px;
+}
+.square {
+  background: linear-gradient(145deg, #cacccf, #ffffff);
+  border-radius: 20px;
+  box-shadow: 2.1px 2.1px 15px rgb(11, 12, 15), -2.1px -2.1px 15px #FFFFFF;
+  /*border: 2px solid black;*/
+  margin-right: -2px;
+  padding: 0;
+  height: 220px;
+  width: 220px;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.square:active {
+  box-shadow: none;
+}
+img {
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+}
+
+.details {
+  height: 70%;
+  width: 300px;
+  border: 2px solid red;
+  border-radius: 0 20px 20px 0;
+  padding: 5px;
+  width: 300px;
+  border-left: none;
+  position: relative;
+}
+
+.bottom-right {
+  bottom: 10px;
+  right: 10px;
+}
+
+.img-small {
+  background-color: red;
+  padding: 20px;
+  position: absolute;
+  border-radius: 50%;
+}
+p {font-weight:bold;}
+
+menu {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 300px;
+  border: 3px solid #73AD21;
+}
+
+
+
+@media screen and (min-width: 680px) {
+  .row {
+    width: 48%;
+  }
+}
