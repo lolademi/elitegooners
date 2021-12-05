@@ -18,7 +18,7 @@ class Hello extends React.Component {
           <br />
           <div class="text-left text-base">
             <span>ID: </span>
-            <p class="inline">{this.props.id}</p>
+            <p class="inline-block">{this.props.id}</p>
             <br />
             <span>Country: </span>
             <p class="inline">{this.props.country}</p>
