@@ -3,7 +3,7 @@ class Hello extends React.Component {
     return (
       <div class="column">
         <div class="square">
-          <div class="hover:border-indigo-500">{this.props.img}</div>
+          <div class="">{this.props.img}</div>
         </div>
         <div class="details hover:border-indigo-500">
           <div class="text-center">
@@ -18,17 +18,15 @@ class Hello extends React.Component {
           <br />
           <div class="text-left text-base">
             <span>ID: </span>
-            <p class="inline-block">{this.props.id}</p>
+            <p class="inline-block mr-3.5">{this.props.id}</p>
+            <span>Post: </span>
+            <p class="inline-block">{this.props.post}</p>
             <br />
             <span>Country: </span>
-            <p class="inline">{this.props.country}</p>
-            <br />
-            <span>Post: </span>
-            <p class="inline">{this.props.post}</p>
+            <p class="inline-block">{this.props.country}</p>
             <br />
             <span>Fav. Player: </span>
-            <p class="inline">{this.props.fplayer}</p>
-            <br />
+            <p class="inline-block">{this.props.fplayer}</p>
           </div>
         </div>
       </div>
@@ -42,7 +40,7 @@ function Memb() {
       <Hello
         name="Lolade"
         id="01"
-        img={[<img src="images/shittu.jpg" />]}
+        img={[<img src="images/shittu.jpg" alt="profile img" />]}
         country="Nigeria"
         post="Admin"
         fplayer="Bukayo Saka"
@@ -93,7 +91,7 @@ function Memb() {
         id="07"
         img={[<img src={"images/profile2.jpeg"} />]}
         country="Nigeria"
-        post="Elite Member"
+        post="Elite"
         fplayer="Bukayo Saka"
         icons={[<i class="fas fa-medal"></i>]}
       />
@@ -102,7 +100,7 @@ function Memb() {
         id="06"
         img={[<img src="images/profile2.jpeg" />]}
         country="Nigeria"
-        post="Elite Member"
+        post="Elite"
         fplayer="Granit Xhaka"
         icons={[<i class="fas fa-medal"></i>]}
       />
@@ -111,7 +109,7 @@ function Memb() {
         id=""
         img={[<img src="images/profile1.jpeg" />]}
         country="Nigeria"
-        post="Elite Member"
+        post="Elite"
         fplayer="Granit Xhaka"
         icons={[<i class="fas fa-medal"></i>]}
       />
@@ -120,7 +118,7 @@ function Memb() {
         id="06"
         img={[<img src="images/profile2.jpeg" />]}
         country="Nigeria"
-        post="Elite Member"
+        post="Elite"
         fplayer="Martinelli"
         icons={[<i class="fas fa-medal"></i>]}
       />
@@ -129,8 +127,8 @@ function Memb() {
         id=""
         img={[<img src="images/profile1.jpeg" />]}
         country="Nigeria"
-        post="Elite Member"
-        fplayer=""
+        post="Elite"
+        fplayer="Unknown"
         icons={[<i class="fas fa-medal"></i>]}
       />
       <Hello
