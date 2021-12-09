@@ -237,11 +237,14 @@ html {
 * {
   box-sizing: border-box;
 }
+h1 {
+  color: #121272;
+}
 .myContainer {
   margin: 0 auto;
   padding: 20px 0;
   max-width: 100%;
-  border: 2px solid red;
+  /*border: 2px solid red;*/
 }
 .row {
   flex: ;
@@ -254,34 +257,35 @@ html {
   padding: 10px;
   padding-bottom: 2.5em;
   width: 100%;
-  border: 2px solid red;
+  /*border: 2px solid red;*/
 }
 .column {
-  flex: 48%;
+  flex: 100%;
   display: flex;
-  flex-direction: row;
+  flex-direction: column-revers;
   flex-wrap: nowrap;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   width: ;
   height: ;
   margin: 10px;
-  padding: 10px 0;
-  border: 2px solid blue;
+  padding: 10px;
+  border: 2px solid #121272;
 }
-.square {
+/*.square {
   background: linear-gradient(145deg, #cacccf, #ffffff);
   border-radius: 20px;
   box-shadow: 2.1px 2.1px 15px rgb(11, 12, 15), -2.1px -2.1px 15px #ffffff;
-  /*border: 2px solid black;*/
+  border: 2px solid black;
   margin-right: -2px;
   padding: ;
-  height: 14em;
-  width: 14em;
+  height: 30vh;
+  width: 30vh;
   overflow: hidden;
   z-index: 1;
 }
-
+*/
+/*
 .square:active {
   box-shadow: none;
 }
@@ -289,22 +293,28 @@ html {
   padding: 5px;
   box-shadow: none;
   border: 2px solid red;
-}
+}*/
 img {
-  height: auto;
-  max-width: 100%;
+  /*  height: auto;
+  max-width: 100%;*/
+  height: 10rem;
+  width: 10rem;
   border-radius: 20px;
   margin: auto;
+  background: linear-gradient(145deg, #cacccf, #ffffff);
+  border-radius: 20px;
+  box-shadow: 2.1px 2.1px 15px rgb(11, 12, 15), -2.1px -2.1px 15px #ffffff;
 }
 
 .details {
-  height: 70%;
-  width: 80%;
-  font-size: ;
-  border: 2px solid red;
+  height: ;
+  width: ;
+  margin-left: ;
+  font-size: 1em;
+  color: #121272;
+  /*border: 2px solid green;*/
   border-radius: 0 20px 20px 0;
   padding: 5px;
-  width: 300px;
   border-left: ;
   position: relative;
 }
@@ -312,15 +322,20 @@ img {
 p {
   font-weight: bold;
 }
+/*.inline-block {
+  display: inline-block;
+}*/
 
 menu {
   position: fixed;
   bottom: 0;
   right: 0;
-  border: 2px solid red;
+  left: 0;
+  width: 98%;
+  margin: 10px auto;
+  border: 2px solid #121272;
   border-radius: 20px;
-  width: 100%;
-  margin: 10px 0;
+
   padding: 0.3em;
   display: flex;
   flex-direction: row;
@@ -328,7 +343,7 @@ menu {
   align-items: center;
   justify-content: space-around;
   font-size: 2em;
-  color: #e3fdee;
+  color: #121272;
   z-index: 1;
 }
 
@@ -346,11 +361,14 @@ menu {
     padding: 10px;
   }
 }*/
-@media (max-width: 800px) {
+@media (min-width: 800px) {
   .column {
-    flex: 100%;
+    flex: 48%;
+    width: 40%;
   }
+  .myContainer,
   .row {
+    flex-direction: row;
     align-items: center;
     justify-content: center;
   }
