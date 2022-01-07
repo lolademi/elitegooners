@@ -1,7 +1,7 @@
 class Hello extends React.Component {
   render() {
     return (
-      <div class="column flex shadow-2xl rounded-2xl  p-4 md:w-1/2">
+      <div class="column flex shadow-2xl rounded-2xl  p-4 w-full md:w-1/2">
         <div class="square p-1 shadow-xl border-solid rounded-xl">
           <div class="">{this.props.img}</div>
         </div>
