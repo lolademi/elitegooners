@@ -1,25 +1,25 @@
 class Hello extends React.Component {
   render() {
     return (
-      <div class="column">
-        <div class="square">
+      <div class="column flex shadow-2xl rounded-2xl  p-4 md:w-1/2">
+        <div class="square p-1 shadow-xl border-solid rounded-xl">
           <div class="">{this.props.img}</div>
         </div>
-        <div class="details hover:border-indigo-500">
+        <div class="details p-1">
           <div class="text-center">
-            <h3 id="M1-NAME" class="font-mono text-2xl">
-              {this.props.name}
-            </h3>
-            <br />
-            <p id="M1-ICONS" class="flex justify-around text-lg">
+            <p id="M1-NAME" class="text-xl">
+              <strong> {this.props.name} </strong>
+            </p>
+
+            <p id="M1-ICONS" class="flex justify-around">
               {this.props.icons}
             </p>
           </div>
           <br />
-          <div class="text-left text-base">
+          <div class="text-left">
             <span>ID: </span>
             <p class="inline-block mr-3.5">{this.props.id}</p>
-            <span>Post: </span>
+            <span>Rank: </span>
             <p class="inline-block">{this.props.post}</p>
             <br />
             <span>Country: </span>
@@ -33,6 +33,43 @@ class Hello extends React.Component {
     );
   }
 }
+
+//STARS
+var star1 = [
+  <i class="fas fa-star"></i>,
+  <i class="far fa-star"></i>,
+  <i class="far fa-star"></i>,
+  <i class="far fa-star"></i>,
+  <i class="far fa-star"></i>,
+];
+var star2 = [
+  <i class="fas fa-star"></i>,
+  <i class="fas fa-star"></i>,
+  <i class="far fa-star"></i>,
+  <i class="far fa-star"></i>,
+  <i class="far fa-star"></i>,
+];
+var star3 = [
+  <i class="fas fa-star"></i>,
+  <i class="fas fa-star"></i>,
+  <i class="fas fa-star"></i>,
+  <i class="far fa-star"></i>,
+  <i class="far fa-star"></i>,
+];
+var star4 = [
+  <i class="fas fa-star"></i>,
+  <i class="fas fa-star"></i>,
+  <i class="fas fa-star"></i>,
+  <i class="fas fa-star"></i>,
+  <i class="far fa-star"></i>,
+];
+var star5 = [
+  <i class="fas fa-star"></i>,
+  <i class="fas fa-star"></i>,
+  <i class="fas fa-star"></i>,
+  <i class="fas fa-star"></i>,
+  <i class="fas fa-star"></i>,
+];
 
 function Memb() {
   return (
@@ -93,16 +130,25 @@ function Memb() {
         country="Nigeria"
         post="Elite"
         fplayer="Bukayo Saka"
-        icons={[<i class="fas fa-medal"></i>]}
+        icons={star3}
+      />
+      <Hello
+        name="Ejiyemi"
+        id="09"
+        img={[<img src={"images/profile2.jpeg"} />]}
+        country="Nigeria"
+        post="Elite"
+        fplayer="Bukayo Saka"
+        icons={star3}
       />
       <Hello
         name="Anonymous"
-        id="06"
+        id="10"
         img={[<img src="images/profile2.jpeg" />]}
         country="Nigeria"
         post="Elite"
         fplayer="Granit Xhaka"
-        icons={[<i class="fas fa-medal"></i>]}
+        icons={star3}
       />
       <Hello
         name="Mayowa"
@@ -111,7 +157,7 @@ function Memb() {
         country="Nigeria"
         post="Elite"
         fplayer="Granit Xhaka"
-        icons={[<i class="fas fa-medal"></i>]}
+        icons={star2}
       />
       <Hello
         name="S. Abk"
@@ -120,7 +166,7 @@ function Memb() {
         country="Nigeria"
         post="Elite"
         fplayer="Martinelli"
-        icons={[<i class="fas fa-medal"></i>]}
+        icons={star3}
       />
       <Hello
         name="Rolexy"
@@ -129,25 +175,25 @@ function Memb() {
         country="Nigeria"
         post="Elite"
         fplayer="Unknown"
-        icons={[<i class="fas fa-medal"></i>]}
+        icons={star2}
       />
       <Hello
         name="Godfrey"
         id=""
         img={[<img src="images/profile1.jpeg" />]}
         country="Kenya"
-        post="Member"
+        post="Comrade"
         fplayer="Unknown"
-        icons={[<i class="fas fa-user"></i>]}
+        icons={star2}
       />
       <Hello
         name="Mary"
         id=""
         img={[<img src="images/profile6.png" />]}
         country="Nigeria"
-        post="Member"
+        post="Comrade"
         fplayer="Unknown"
-        icons={[<i class="fas fa-user"></i>]}
+        icons={star2}
       />
     </div>
   );
