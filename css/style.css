@@ -199,7 +199,7 @@ body.is-preload *:after {
 
 /* Typography */
 
-html {
+/*html {
   font-size: 18pt;
 }
 
@@ -225,13 +225,13 @@ html {
   html {
     font-size: 11pt;
   }
-}
+}*/
 
 /**************/
 
 .body {
   background-color: #e3fdee;
-  font-size: 16px;
+  font-size: ;
 }
 
 * {
@@ -248,29 +248,31 @@ h1 {
 }
 .row {
   flex: ;
-  margin: auto;
+  margin: aut;
   display: flex;
   display: -webkit-flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: center;
-  padding: 10px;
-  padding-bottom: 2.5em;
+  justify-content: space-around;
+  padding: ;
+  padding-bottom: 3em;
   width: 100%;
-  /*border: 2px solid red;*/
+  border: 2px solid red;
 }
 .column {
-  flex: 100%;
-  display: flex;
-  flex-direction: column-revers;
-  flex-wrap: nowrap;
-  align-items: center;
+  flex: ;
+  display: ;
+  flex-wrap: ;
+  align-items: ;
   justify-content: space-evenly;
   width: ;
   height: ;
-  margin: 10px;
-  padding: 10px;
-  border: 2px solid #121272;
+  margin: ;
+  padding: ;
+  /*  border: 2px solid #121272;*/
+}
+.square {
+  background-image: url("/images/profile3.jpeg");
 }
 /*.square {
   background: linear-gradient(145deg, #cacccf, #ffffff);
@@ -302,19 +304,19 @@ img {
   border-radius: 20px;
   margin: auto;
   background: linear-gradient(145deg, #cacccf, #ffffff);
-  border-radius: 20px;
-  box-shadow: 2.1px 2.1px 15px rgb(11, 12, 15), -2.1px -2.1px 15px #ffffff;
+
+  /*  box-shadow: 2.1px 2.1px 15px rgb(11, 12, 15), -2.1px -2.1px 15px #ffffff;*/
 }
 
 .details {
   height: ;
   width: ;
   margin-left: ;
-  font-size: 1em;
+  font-size: ;
   color: #121272;
   /*border: 2px solid green;*/
   border-radius: 0 20px 20px 0;
-  padding: 5px;
+  padding: ;
   border-left: ;
   position: relative;
 }
@@ -363,8 +365,8 @@ menu {
 }*/
 @media (min-width: 800px) {
   .column {
-    flex: 48%;
-    width: 40%;
+    flex: ;
+    width: ;
   }
   .myContainer,
   .row {
