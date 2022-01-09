@@ -180,7 +180,7 @@ html {
 }
 
 body {
-  background: #ffffff;
+  /*  background: #ffffff;*/
   overflow-x: hidden;
 }
 
@@ -229,9 +229,10 @@ body.is-preload *:after {
 
 /**************/
 
-.body {
-  background-color: #e3fdee;
+body {
+  /* background-color: #e3fdee;*/
   font-size: ;
+  background: #c8ceea;
 }
 
 * {
@@ -240,15 +241,15 @@ body.is-preload *:after {
 h1 {
   color: #121272;
 }
-.myContainer {
-  margin: 0 auto;
-  padding: 20px 0;
-  max-width: 100%;
+.container {
+  margin: ;
+  padding: ;
+  max-width: ;
   /*border: 2px solid red;*/
 }
 .row {
   flex: ;
-  margin: aut;
+  margin: auto;
   display: flex;
   display: -webkit-flex;
   flex-wrap: wrap;
@@ -256,7 +257,7 @@ h1 {
   justify-content: space-around;
   padding: ;
   padding-bottom: 3em;
-  width: 100%;
+  width: ;
   border: 2px solid red;
 }
 .column {
@@ -267,12 +268,17 @@ h1 {
   justify-content: space-evenly;
   width: ;
   height: ;
-  margin: ;
+  margin: 10px;
   padding: ;
-  /*  border: 2px solid #121272;*/
+  borders: 2px solid #121272;
+  background: #c8ceea;
+  box-shadow: inset 9.91px 9.91px 15px #b6bbd5,
+    inset -9.91px -9.91px 15px #dae1ff;
 }
 .square {
-  background-image: url("/images/profile3.jpeg");
+  /*background-image: url("/images/profile3.jpeg");
+  background-size: cover;*/
+  border: 2px solid #121272;
 }
 /*.square {
   background: linear-gradient(145deg, #cacccf, #ffffff);
