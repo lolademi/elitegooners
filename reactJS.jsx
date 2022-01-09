@@ -1,8 +1,8 @@
 class Hello extends React.Component {
   render() {
     return (
-      <div class="column flex shadow-2xl rounded-2xl  p-4 w-full lg:w-1/2">
-        <div class="square p-1 shadow-xl border-solid rounded-xl">
+      <div class="column flex rounded-2xl  p-4 w-full lg:w-5/12">
+        <div class="square shadow-xl border-solid rounded-xl">
           <div class="">{this.props.img}</div>
         </div>
         <div class="details p-1">
@@ -153,7 +153,7 @@ function Memb() {
       <Hello
         name="Mayowa"
         id=""
-        img={[<img src="images/profile1.jpeg" />]}
+        img={[<img src="images/profile2.jpeg" />]}
         country="Nigeria"
         post="Elite"
         fplayer="Granit Xhaka"
@@ -171,7 +171,7 @@ function Memb() {
       <Hello
         name="Rolexy"
         id=""
-        img={[<img src="images/profile1.jpeg" />]}
+        img={[<img src="images/profile2.jpeg" />]}
         country="Nigeria"
         post="Elite"
         fplayer="Unknown"
@@ -180,7 +180,7 @@ function Memb() {
       <Hello
         name="Godfrey"
         id=""
-        img={[<img src="images/profile1.jpeg" />]}
+        img={[<img src="images/profile2.jpeg" />]}
         country="Kenya"
         post="Comrade"
         fplayer="Unknown"
