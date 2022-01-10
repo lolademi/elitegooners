@@ -225,14 +225,14 @@ body.is-preload *:after {
   html {
     font-size: 11pt;
   }
-}*/
+}
 
 /**************/
 
 body {
   /* background-color: #e3fdee;*/
   font-size: ;
-  background: #c8ceea;
+background: #EEF0F4;
 }
 
 * {
@@ -255,10 +255,14 @@ h1 {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-around;
-  padding: ;
+  padding: 10px;
   padding-bottom: 3em;
   width: ;
-  border: 2px solid red;
+  borders: 2px dashed;
+
+  border-radius: 20px;
+ 
+box-shadow: inset 9.91px 9.91px 15px #A3A4A7, inset -4.91px -4.91px 15px #FFFFFF;
 }
 .column {
   flex: ;
@@ -270,15 +274,28 @@ h1 {
   height: ;
   margin: 10px;
   padding: ;
-  borders: 2px solid #121272;
-  background: #c8ceea;
+  border: 2px solid #121272;
+  /* background: #c8ceea;
   box-shadow: inset 9.91px 9.91px 15px #b6bbd5,
-    inset -9.91px -9.91px 15px #dae1ff;
+    inset -9.91px -9.91px 15px #dae1ff;*/
+
+
+ background: linear-gradient(145deg, #CACCCF, #FFFFFF);
+box-shadow: 9.91px 9.91px 15px #A3A4A7, -4.91px -4.91px 15px #FFFFFF;
 }
 .square {
   /*background-image: url("/images/profile3.jpeg");
   background-size: cover;*/
-  border: 2px solid #121272;
+  border: 2px dashed #121272;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #c8ceea;
+  border-radius: 15%;
+  box-shadow: inset 9.91px 9.91px 15px #b6bbd5,
+    inset -9.91px -9.91px 15px #dae1ff;
+
+    
 }
 /*.square {
   background: linear-gradient(145deg, #cacccf, #ffffff);
@@ -303,12 +320,14 @@ h1 {
   border: 2px solid red;
 }*/
 img {
-  /*  height: auto;
-  max-width: 100%;*/
-  height: 10rem;
-  width: 10rem;
+  /*  height: auto;*/
+  max-width: 100%;
+  /*height: 10rem;
+  width: 10rem;*/
+  height: 12rem;
+  width: 12rem;
   border-radius: 20px;
-  margin: auto;
+  margin: aut;
   background: linear-gradient(145deg, #cacccf, #ffffff);
 
   /*  box-shadow: 2.1px 2.1px 15px rgb(11, 12, 15), -2.1px -2.1px 15px #ffffff;*/
@@ -321,10 +340,11 @@ img {
   font-size: ;
   color: #121272;
   /*border: 2px solid green;*/
-  border-radius: 0 20px 20px 0;
+  border-radius: ;
   padding: ;
   border-left: ;
   position: relative;
+  border-bottom: 2px dashed #121272;
 }
 
 p {
@@ -339,11 +359,10 @@ menu {
   bottom: 0;
   right: 0;
   left: 0;
-  width: 98%;
+  width: 96%;
   margin: 10px auto;
   border: 2px solid #121272;
   border-radius: 20px;
-
   padding: 0.3em;
   display: flex;
   flex-direction: row;
@@ -353,7 +372,9 @@ menu {
   font-size: 2em;
   color: #121272;
   z-index: 1;
-}
+background: #C8CEEA;
+
+box-shadow: inset 9.91px 9.91px 15px #8B8FA3, inset -9.91px -9.91px 15px #FFFFFF;
 
 /*@media screen and (min-width: 800px) {
   .row {
