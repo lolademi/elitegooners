@@ -199,7 +199,7 @@ function Memb() {
 
       <div class="column">
         <a href="https://www.chainmine.io/?ref=miFHAX4X">
-          <img src="https://www.chainmine.io/assets/images/banner/b2.gif" />
+          <img src="https://www.chainmine.io/assets/images/banner/b1.gif" />
         </a>
       </div>
     </div>
