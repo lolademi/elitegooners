@@ -3,7 +3,7 @@ class Hello extends React.Component {
     return (
       <div class="column flex rounded-2xl  p-4 w-full lg:w-5/12">
         <div class="square shadow-xl border-solid rounded-xl">
-          <div class="">{this.props.img}</div>
+          <div class=" mx-auto   ">{this.props.img}</div>
         </div>
         <div class="details p-1">
           <div class="text-center">
@@ -19,6 +19,7 @@ class Hello extends React.Component {
           <div class="text-left">
             <span>ID: </span>
             <p class="inline-block mr-3.5">{this.props.id}</p>
+            <br />
             <span>Rank: </span>
             <p class="inline-block">{this.props.post}</p>
             <br />
