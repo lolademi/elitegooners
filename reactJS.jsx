@@ -200,7 +200,7 @@ function Memb() {
       <div class="column flex">
      
         <a href="https://www.chainmine.io/?ref=miFHAX4X">
-          <img src="https://www.chainmine.io/assets/images/banner/b2.gif" width="100%" height="auto" />
+          <img src="https://www.chainmine.io/assets/images/banner/b2.gif" width="500px" height="30px" />
         </a>
       </div>
     </div>
