@@ -197,9 +197,9 @@ function Memb() {
         icons={star2}
       />
 
-      
+    <p>  
      <a href="https://www.chainmine.io/?ref=miFHAX4X"><img src="https://www.chainmine.io/assets/images/banner/b2.gif"></a>
-       
+       </p>
 
     </div>
   );
