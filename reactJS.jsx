@@ -7,11 +7,11 @@ class Hello extends React.Component {
         </div>
         <div class="details p-1 text-lg leading-10">
           <div class="text-center">
-            <p id="M1-NAME" class="text-4xl">
+            <i id="M1-NAME" class="text-4xl">
               <strong> {this.props.name} </strong>
-            </p>
+            </i>
 
-            <p id="M1-ICONS" class="flex justify-around">
+            <p id="M1-ICONS" class="flex justify-around text-4xl">
               {this.props.icons}
             </p>
           </div>
