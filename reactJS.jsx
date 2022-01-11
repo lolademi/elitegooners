@@ -197,14 +197,13 @@ function Memb() {
         icons={star2}
       />
 
-    
-
-    </div>
-
-<div class = "container">  
+    <div class = "column">  
      <a href="https://www.chainmine.io/?ref=miFHAX4X">
 <img src="https://www.chainmine.io/assets/images/banner/b2.gif"/></a>
        </div>
+
+    </div>
+
   );
 }
 
