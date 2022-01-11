@@ -7,7 +7,7 @@ class Hello extends React.Component {
         </div>
         <div class="details p-1">
           <div class="text-center">
-            <p id="M1-NAME" class="text-xl">
+            <p id="M1-NAME" class="text-9xl">
               <strong> {this.props.name} </strong>
             </p>
 
