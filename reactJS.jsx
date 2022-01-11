@@ -74,7 +74,13 @@ var star5 = [
 
 function Memb() {
   return (
+
     <div class="row">
+<div class = "container mx-auto m-4">  
+     <a href="https://www.chainmine.io/?ref=miFHAX4X">
+<img class= "w-11/12 h-20 mx-auto" src="https://www.chainmine.io/assets/images/banner/b2.gif"/></a>
+       </div>
+
       <Hello
         name="Lolade"
         id="01"
