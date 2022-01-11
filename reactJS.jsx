@@ -197,9 +197,9 @@ function Memb() {
         icons={star2}
       />
 
-    <div class = "container mx-auto">  
+    <div class = "container mx-auto m-4">  
      <a href="https://www.chainmine.io/?ref=miFHAX4X">
-<img class= "w-3/4 h-14" src="https://www.chainmine.io/assets/images/banner/b2.gif"/></a>
+<img class= "w-3/4 h-16 mx-auto" src="https://www.chainmine.io/assets/images/banner/b2.gif"/></a>
        </div>
 
     </div>
