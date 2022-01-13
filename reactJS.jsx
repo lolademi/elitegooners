@@ -5,9 +5,9 @@ class Hello extends React.Component {
         <div class="square shadow-xl border-solid rounded-xl">
           <div class=" mx-auto   ">{this.props.img}</div>
         </div>
-        <div class="details p-1 text-3xl leading-10">
+        <div class="details p-1 leading-10">
           <div class="text-center">
-            <i id="M1-NAME" class="text-4xl font-bold">
+            <i id="M1-NAME" class=" font-bold">
               <strong> {this.props.name} </strong>
             </i>
 
