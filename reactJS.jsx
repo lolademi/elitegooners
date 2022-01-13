@@ -11,7 +11,7 @@ class Hello extends React.Component {
               <strong> {this.props.name} </strong>
             </i>
 
-            <p id="M1-ICONS" class="flex justify-around text-4xl">
+            <p id="M1-ICONS" class="flex justify-around ">
               {this.props.icons}
             </p>
           </div>
