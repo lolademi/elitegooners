@@ -236,9 +236,14 @@ background: #EEF0F4;
 color: black;
 }
 
+
+body {
+  font-size: clamp(100%, 1rem + 2vw, 24px);
 * {
   box-sizing: border-box;
 }
+
+
 h1 {
   color: #121272;
 }
