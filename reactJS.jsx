@@ -5,13 +5,13 @@ class Hello extends React.Component {
         <div class="square shadow-xl border-solid rounded-xl">
           <div class=" mx-auto   ">{this.props.img}</div>
         </div>
-        <div class="details p-1 leading-10">
+        <div class="details p-1">
           <div class="text-center">
-            <i id="M1-NAME" class=" font-bold">
+            <p id="M1-NAME" class="text-xl">
               <strong> {this.props.name} </strong>
-            </i>
+            </p>
 
-            <p id="M1-ICONS" class="flex justify-around ">
+            <p id="M1-ICONS" class="flex justify-around">
               {this.props.icons}
             </p>
           </div>
@@ -74,13 +74,7 @@ var star5 = [
 
 function Memb() {
   return (
-
     <div class="row">
-<div class = "container mx-auto m-4">  
-     <a href="https://www.chainmine.io/?ref=miFHAX4X">
-<img class= "w-11/12 h-20 mx-auto" src="https://www.chainmine.io/assets/images/banner/b2.gif"/></a>
-       </div>
-
       <Hello
         name="Lolade"
         id="01"
@@ -203,13 +197,15 @@ function Memb() {
         icons={star2}
       />
 
-    <div class = "container mx-auto m-4">  
-     <a href="https://www.chainmine.io/?ref=miFHAX4X">
-<img class= "w-11/12 h-20 mx-auto" src="https://www.chainmine.io/assets/images/banner/b2.gif"/></a>
-       </div>
-
+      <div class="column flex">
+        <a href="https://www.chainmine.io/?ref=miFHAX4X">
+          <img src="https://www.chainmine.io/assets/images/banner/b2.gif" />
+        </a>
+        <a href="https://www.chainmine.io/?ref=miFHAX4X">
+          <img src="https://www.chainmine.io/assets/images/banner/b2.gif" />
+        </a>
+      </div>
     </div>
-
   );
 }
 
