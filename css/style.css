@@ -111,7 +111,7 @@ ul {
 }
 blockquote,
 q {
-  quotes: none; 
+  quotes: none;
 }
 blockquote:before,
 blockquote:after,
@@ -233,19 +233,11 @@ body {
   /* background-color: #e3fdee;*/
   font-size: ;
 background: #EEF0F4;
-color: black;
 }
-
-
-body {
-  font-size: clamp(100%, 1rem + 2vw, 24px);}
-
 
 * {
   box-sizing: border-box;
 }
-
-
 h1 {
   color: #121272;
 }
@@ -266,7 +258,8 @@ h1 {
   padding: 10px;
   padding-bottom: 3em;
   width: ;
-  borders: 2px dashed;
+  borders: 2px dashed;
+
   border-radius: 20px;
  
 box-shadow: inset 9.91px 9.91px 15px #A3A4A7, inset -4.91px -4.91px 15px #FFFFFF;
@@ -331,8 +324,8 @@ img {
   max-width: 100%;
   /*height: 10rem;
   width: 10rem;*/
-  height: 24rem;
-  width: 24rem;
+  height: 12rem;
+  width: 12rem;
   border-radius: 20px;
   margin: aut;
   background: linear-gradient(145deg, #cacccf, #ffffff);
@@ -343,8 +336,9 @@ img {
 .details {
   height: ;
   width: ;
-  margin-left: ;
-  color: ;
+  margin-left: ;
+  font-size: ;
+  color: #121272;
   /*border: 2px solid green;*/
   border-radius: ;
   padding: ;
