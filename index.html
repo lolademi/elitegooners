@@ -3,7 +3,8 @@
   <head>
     <meta charset="utf‑8" />
     <!‑‑ Responsive ‑‑>
-    <meta name="viewport" content="width=device‑width, initial‑scale=1" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
     <!‑‑ CSS ‑‑>
 
     <!--Tailwind CSS Local-->
@@ -49,6 +50,13 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css?family=Lobster"
     />
+   
+    <!---Icons--->
+    <link rel=”stylesheet” href=”https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css”>
+    
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
     <!‑‑Custom CSS‑‑>
     <link
       id="theme"
@@ -63,17 +71,20 @@
   <body>
     <!‑‑ Content ‑‑>
     <div class="header">
-      <h1 id="" class="font-mono text-6xl break-normal text-center">
+      <h1 id="" class="font-mono text-4xl break-normal text-center">
         Elite Gooners
       </h1>
     </div>
     <br />
-    <div id="mydiv" class="mx-auto px-4 font-mono text-lg flex-wrap">MAIN</div>
+    <p class="font-mono text-center column">Underconstruction <ion-icon name="construct-sharp"></ion-icon>
+    </p>
+    <div id="mydiv" class="mx-auto px-4 font-mono flex-wrap">MAIN</div>
 
     <menu id="" class="flex font-mono bg-white hover:border-indigo-500">
-      <strong><i class="fas fa-home font-mono"></i> Home</strong>
-      <strong><i class="fas fa-user-friends"></i> Members</strong>
-      <strong><i class="fas fa-cog"></i> About</strong>
+      <strong><i class="fas fa-home font-mono"></i> <i class="hidden">Home</i> </strong>
+      <strong><i class="fas fa-user-friends"></i> <i class="hidden">Members</i> </strong>
+      <i class="fi fi-rr-home"></i>
+      <strong><i class="fas fa-cog"></i> <i class="hidden">About</i> </strong>
     </menu>
 
     <!--CUSTOM SCRIPT-->
