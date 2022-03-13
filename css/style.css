@@ -30,7 +30,7 @@ body {
 .row {
   flex: ;
   flex-direction: ;
-  margin: auto;
+  margin: auto; 
   display: flex;
   display: -webkit-flex;
   flex-wrap: wrap;
