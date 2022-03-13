@@ -5,21 +5,20 @@ class Hello extends React.Component {
         <div class="square mx-auto shadow-xl border-solid rounded-xl">
           <div class="profile_pic">{this.props.img}</div>
         </div>
-                   
+
         <div class="details ml-2 p-1 leading-loose">
           <div class="text-center">
             <p id="M1-NAME" class="text-xl mb-4">
               <strong> {this.props.name} </strong>
             </p>
-            
+
             <p id="M1-ICONS" class="flex justify-around mb-4">
               {this.props.icons}
             </p>
           </div>
-          
-          <div class = "fp_pic">{this.props.fp_pic}</div>
-          
-          
+
+          <div class="fp_pic">{this.props.fp_pic}</div>
+
           <div class="text-left">
             <span>ID: </span>
             <p class="inline-block mr-3.5">{this.props.id}</p>
@@ -27,14 +26,15 @@ class Hello extends React.Component {
             <span>Rank: </span>
             <p class="inline-block">{this.props.post}</p>
             <br />
-            <div class= "flex">
-            <span>Country: </span>
-            <p class="flex justify-around inline-bloc ml-2">{this.props.country}</p>
+            <div class="flex">
+              <span>Country: </span>
+              <p class="flex justify-around inline-bloc ml-2">
+                {this.props.country}
+              </p>
             </div>
-            
+
             <span>Fav. Player: </span>
             <p class="inline-block">{this.props.fplayer}</p>
-
           </div>
         </div>
       </div>
@@ -48,42 +48,48 @@ var star1 = [
   <i class="far fa-star"></i>,
   <i class="far fa-star"></i>,
   <i class="far fa-star"></i>,
-  <i class="far fa-star"></i>
+  <i class="far fa-star"></i>,
 ];
 var star2 = [
   <i class="fas fa-star"></i>,
   <i class="fas fa-star"></i>,
   <i class="far fa-star"></i>,
   <i class="far fa-star"></i>,
-  <i class="far fa-star"></i>
+  <i class="far fa-star"></i>,
 ];
 var star3 = [
   <i class="fas fa-star"></i>,
   <i class="fas fa-star"></i>,
   <i class="fas fa-star"></i>,
   <i class="far fa-star"></i>,
-  <i class="far fa-star"></i>
+  <i class="far fa-star"></i>,
 ];
 var star4 = [
   <i class="fas fa-star"></i>,
   <i class="fas fa-star"></i>,
   <i class="fas fa-star"></i>,
   <i class="fas fa-star"></i>,
-  <i class="far fa-star"></i>
+  <i class="far fa-star"></i>,
 ];
 var star5 = [
   <i class="fas fa-star"></i>,
   <i class="fas fa-star"></i>,
   <i class="fas fa-star"></i>,
   <i class="fas fa-star"></i>,
-  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>,
 ];
 
 //Countries
-var ng = [ <img src = "/images/ng.svg" height = "25px" width= "35px" />]
+var ng = [
+  <div class="tooltip">
+    <img src="/images/ng.svg" height="25px" width="35px" />
+    <span class="tooltiptext">Nigeria</span>
+  </div>,
+];
 
 //Players
-var saka = [<img src="images/saka.jpeg" alt="profile img" />]
+var saka = [<img src="images/saka.jpeg" alt="player img" />];
+var xhaka = [<img src="images/xhaka.jpeg" alt="player img" />];
 
 function Memb() {
   return (
@@ -92,24 +98,24 @@ function Memb() {
         name="Lolade"
         id="01"
         img={[<img src="images/shittu.jpg" alt="profile img" />]}
-        country= {ng}
+        country={ng}
         post="Admin"
         fplayer="Bukayo Saka"
-        fp_pic = {saka}
+        fp_pic={saka}
         icons={[
           <i class="fas fa-medal"></i>,
           <i class="fas fa-crown"></i>,
-          <i class="fas fa-user-check"></i>
+          <i class="fas fa-user-check"></i>,
         ]}
       />
       <Hello
         name="HarryPee"
         id="02"
         img={[<img src="images/harrypee.jpg" />]}
-        country= {ng}
+        country={ng}
         post="Admin"
         fplayer="A. Lacazette"
-        fp_pic = {saka}
+        fp_pic={saka}
         icons={[<i class="fas fa-medal"></i>, <i class="fas fa-crown"></i>]}
       />
       <Hello
@@ -125,7 +131,7 @@ function Memb() {
         name="Samuel"
         id="04"
         img={[<img src="images/samuel.jpg" />]}
-        country= {ng}
+        country={ng}
         post="Admin"
         fplayer="A. Ramsdale"
         icons={[<i class="fas fa-medal"></i>, <i class="fas fa-crown"></i>]}
@@ -134,7 +140,7 @@ function Memb() {
         name="Zamani"
         id="05"
         img={[<img src="images/zamani.jpg" />]}
-        country= {ng}
+        country={ng}
         post="Admin"
         fplayer="P. Aubamayang"
         icons={[<i class="fas fa-medal"></i>, <i class="fas fa-crown"></i>]}
@@ -152,7 +158,7 @@ function Memb() {
         name="Ejiyemi"
         id="09"
         img={[<img src={"images/profile2.jpeg"} />]}
-        country= {ng}
+        country={ng}
         post="Elite"
         fplayer="Bukayo Saka"
         icons={star3}
@@ -170,7 +176,7 @@ function Memb() {
         name="Mayowa"
         id=""
         img={[<img src="images/profile2.jpeg" />]}
-        country= {ng}
+        country={ng}
         post="Elite"
         fplayer="Granit Xhaka"
         icons={star3}
@@ -179,7 +185,7 @@ function Memb() {
         name="S. Abk"
         id="06"
         img={[<img src="images/profile2.jpeg" />]}
-        country= {ng}
+        country={ng}
         post="Elite"
         fplayer="Martinelli"
         icons={star3}
@@ -188,7 +194,7 @@ function Memb() {
         name="Rolexy"
         id=""
         img={[<img src="images/profile2.jpeg" />]}
-        country= {ng}
+        country={ng}
         post="Elite"
         fplayer="Unknown"
         icons={star2}
@@ -211,8 +217,6 @@ function Memb() {
         fplayer="Unknown"
         icons={star2}
       />
-
-    
     </div>
   );
 }
