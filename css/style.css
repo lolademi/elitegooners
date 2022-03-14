@@ -25,6 +25,8 @@ body {
 header {
   position: fixed;
   top: 0;
+  bottom: 0;
+  right: 0;
   /*border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;*/
 }
@@ -46,11 +48,6 @@ header {
 
 }
 
-.container {
-  margin: ;
-  padding: ;
-  max-width: ;
-}
 .row {
   flex: ;
   flex-direction: ;
