@@ -90,6 +90,7 @@ header {
   overflow: hidden;
   border-right: 50%;
   border-color: red;
+  z-index: 2;
 }
 
 .profile_pic {
