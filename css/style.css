@@ -7,18 +7,45 @@ body {
   padding-top: 3em;
 }
 
+
+
 * {
   box-sizing: border-box;
 }
-.style1 {
-  color: red;
+
+/*style for header*/
+.header {
+  background: red;
+}
+
+/*style for menu*/
+.menu {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
   border: 2px solid #121272;
+  padding: 0.3em;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: ;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 1.5em;
+  color: #121272;
+  z-index: 1;
+
+}
+
+/*style for header and menu*/
+.style1  {
+  color: red;
   width: 96%;
   margin: 10px auto;
   border: 2px solid #121272;
   border-radius: 20px;
   z-index: 1;
-  background: #fff;
+  background: #c8ceea;
   padding: 0.3em;
 }
 .container {
@@ -30,7 +57,7 @@ body {
 .row {
   flex: ;
   flex-direction: ;
-  margin: auto; 
+  margin: auto;
   display: flex;
   display: -webkit-flex;
   flex-wrap: wrap;
@@ -67,7 +94,6 @@ body {
 .square {
   display: flex;
   background: ;
-  border-radius: 50%;
   border: 0 solid #121272;
   overflow: hidden;
   /* box-shadow: 1px 1px 5px #121272, -1px -1px 5px #121272; */
@@ -105,14 +131,11 @@ body {
   width: 10rem;*/
   height: 10rem;
   width: 10rem;
-  border-radius: 50%;
-  margin: aut;
   border: 2px solid #121272;
   border-left-color: red;
   border-top-color: red;
 }
-.ctry_icon {
-}
+
 .details {
   height: ;
   width: ;
@@ -130,47 +153,14 @@ body {
 p {
   font-weight: bold;
 }
-/*.inline-block {
-  display: inline-block;
-}*/
 
-menu {
-  position: fixed;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  width: 96%;
-  margin: 10px auto;
-  margin-bottom: 0;
-  border: 2px solid #121272;
-  border-radius: 20px;
-  padding: 0.3em;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: ;
-  align-items: center;
-  justify-content: space-around;
-  font-size: 1.5em;
-  color: #121272;
-  z-index: 1;
-  background: #c8ceea;
-  border-bottom: none;
-
-  /* box-shadow: inset 9.91px 9.91px 15px #8B8FA3, inset -9.91px -9.91px 15px #FFFFFF; */
-}
 
 @media screen and (min-width: 600px) {
   .column {
     flex: ;
     width: ;
   }
-  .myContainer,
-  .row {
-    /*flex-direction: column;
-    align-items: center;
-    justify-content: center;*/
-  }
-}
+
 
 @media screen and (max-width: 480px) {
 }
@@ -193,9 +183,9 @@ menu {
   max-width: ;
   width: 4rem;
   height: 7rem;
-  border-radius: 5px;
+ /* border-radius: 5px;
   border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
+  border-bottom-right-radius: 20px;*/
   transform: rotate(-15deg);
   /* box-shadow: 1px 1px 5px #121272, -1px -1px 5px #121272; */
 }
