@@ -3,7 +3,7 @@ class Hello extends React.Component {
     return (
       <div class="column flex w-full   p-4 md:w-96 min-w-fit">
         <div class="square rounded-3xl mx-auto shadow-xl border-solid ">
-          <div class="profile_pic">{this.props.img}</div>
+          <div class="profile_pic shadow-xl">{this.props.img}</div>
         </div>
 
         <div class="details ml-2 p-1 leading-loose">
