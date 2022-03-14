@@ -88,7 +88,7 @@ header {
   background: ;
   border: 3px solid #121272;
   overflow: hidden;
-  border-right: 50%;
+  border-radius: 50%;
   border-color: red;
   z-index: 1;
 }
