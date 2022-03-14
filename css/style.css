@@ -84,9 +84,9 @@ header {
 }
 
 .square {
-  display: flex;
+  display: ;
   background: ;
-  border: 0 solid #121272;
+  border: 3px solid #121272;
   overflow: hidden;
   border-right: 50%;
   border-color: red;
