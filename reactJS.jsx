@@ -97,7 +97,7 @@ function Memb() {
       <Hello
         name="Lolade"
         id="01"
-        img={[<img src="images/shittu.jpg" alt="profile img" class="rounded-3xl"/>]}
+        img={[<img src="images/shittu.jpg" alt="profile img" class="rounded-full"/>]}
         country={ng}
         post="Admin"
         fplayer="Bukayo Saka"
