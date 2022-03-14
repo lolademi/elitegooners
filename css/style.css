@@ -24,8 +24,6 @@ body {
 
 /*style for header*/
 header {
-  
-
   /*border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;*/
 }
@@ -36,9 +34,6 @@ header {
   bottom: 0;
   right: 0;
   left: 0;
-  /*border: 2px solid #121272;*/
-  /*border-top-right-radius: 20px;
-  border-top-left-radius: 20px;*/
   border-bottom: none;
   padding: 0.3em;
   display: flex;
@@ -54,7 +49,6 @@ header {
   margin: ;
   padding: ;
   max-width: ;
-  /*border: 2px solid red;*/
 }
 .row {
   flex: ;
@@ -99,10 +93,7 @@ header {
 }
 
 .profile_pic {
-  /*  height: auto;*/
   max-width: 100%;
-  /*height: 10rem;
-  width: 10rem;*/
   height: 10rem;
   width: 10rem;
   border: 2px solid #121272;
@@ -121,14 +112,11 @@ header {
   padding: ;
   border-left: ;
   position: relative;
-  /*border-bottom: 2px dashed #121272;*/
 }
 
 p {
   font-weight: bold;
 }
-
-
 
 
 #M1-NAME {
