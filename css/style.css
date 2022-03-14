@@ -89,6 +89,7 @@ header {
   border: 0 solid #121272;
   overflow: hidden;
   border-right: 50%;
+  border-color: red;
 }
 
 .profile_pic {
