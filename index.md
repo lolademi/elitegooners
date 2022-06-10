@@ -1,37 +1,95 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf‑8" />
+    <!‑‑ Responsive ‑‑>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="icon" type="image/x-icon" href="/images/arsenal.png">
+    <!‑‑ CSS ‑‑>
 
-You can use the [editor on GitHub](https://github.com/YoungShittu/elitegooners/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+    <!--Tailwind CSS Local-->
+    <link
+      id="theme"
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="css/tailwind.min.css"
+    />
+    <!--Tailwind CSS-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css"
+      integrity="sha512-wnea99uKIC3TJF7v4eKk4Y+lMz2Mklv18+r4na2Gn1abDRPPOeef95xTzdwGD9e6zXJBteMIhZ1+68QC5byJZw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+    <!--React Script Local-->
+    <script src="react/react.production.min.js"></script>
+    <script src="react/react-dom.production.min.js"></script>
+    <script src="react//babel.min.js"></script>
+    <!--REACT SCRIPT-->
+    <script type="text/babel" src="reactJS.jsx"></script>
+    <!--React Script-->
+    <script src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
 
-### Markdown
+    <!‑‑Font Awesome‑‑>
+    <!‑‑Online Address‑‑>
+    <script
+      src="https://kit.fontawesome.com/5468eb592b.js"
+      crossorigin="anonymous"
+    ></script>
+    <!‑‑Local Address‑‑>
+    <link href="fontawesome/css/all.css" rel="stylesheet" />
+    <!‑‑Google Font‑‑>
+    <!‑‑Online Address‑‑>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Lobster"
+    />
+   
+    <!---Icons--->
+    <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css">
+    
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+    <!‑‑Custom CSS‑‑>
+    <link
+      id="theme"
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="css/style.css"
+    />
+    <style></style>
+    <title>Elite Gooners</title>
+  </head>
+  <body>
+    <!‑‑ Content ‑‑>
+    <header class=" header ">
+      <h1 id="" class="fixed-top border-2 border-solid border-indigo-900 border-t-0 style1 m-auto rounded-b-3xl font-mono text-4xl break-normal text-center">
+        Elite Gooners
+      </h1>
+    </div>
+    <br />
+    <p class="m-auto rounded-3xl font-mono text-center style1">Underconstruction <ion-icon name="construct-sharp" class="animate-spin"></ion-icon>
+    </p>
+    <div id="mydiv" class="mx-auto px-4 font-mono flex-wrap">MAIN</div>
 
-```markdown
-Syntax highlighted code block
+    <div id="" class="menu border-2 border-solid border-indigo-900 border-b-0 style1 m-auto rounded-t-3xl text-2xl flex font-mono bg-white">
+       <i class="fi fi-rr-home"></i> <i class="hidden">Home</i>
+      <i class="fi fi-rr-user"></i> <i class="hidden">Members</i>
+    
+      <strong><i class="fi fi-rr-apps"></i> <i class="hidden">About</i> </strong>
+    </div>
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/YoungShittu/elitegooners/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+    <!--CUSTOM SCRIPT-->
+    <script src="script.js"></script>
+    <!--REACT SCRIPT-->
+    <script type="text/babel" src="reactJS.jsx"></script>
+  </body>
+</html>
